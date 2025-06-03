@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/*
+EM HTML é id = em CSS é # (id pode ser usado uma vez)
+
+ EM HTML é class = em CSS (class pode ser usado varias vezes) 
+ é .
+*/
+
+body{
+    background-color: rgb(199, 250, 250);
+}
+h1{
+    
+    color: black;
+}
+p{
+    text-align: justify;
+}
+h1#principal{
+    text-align: center; 
+background-color: black;
+color: white;
+}
+.avançado{
+    text-align: center;
+    color: red;
+}
+.intermediario{
+color: yellow;
+}
+.basico{
+    color: green;
+}
