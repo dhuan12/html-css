@@ -73,22 +73,22 @@ section.normal{
 }
 
 section.imagem{
-    background-color: rgb(54, 49, 49);
+    background-color: rgb(145, 128, 128);
     color: white;
 }
 
 section.imagem > p{
     display: inline-block;
     padding: 5px;
-    background-color: rgb(65, 65, 65);
+    background-color: rgba(65, 65, 65, 0.438);
 }
 
 section#img01{
-background-image: url('../imagens/sunflower-8995443_1920.xcf');
-background-position: center right;
+background-image: url(imagens/background001.jpg);
+background-position: right center;
 }
 
 section#img02{
-    background-image: url('../sunflower-8995443_1920.png')
+    background-image: url(imagens/background002.jpg)
     
 }
