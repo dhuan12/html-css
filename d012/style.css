@@ -75,12 +75,17 @@ section.normal{
 section.imagem{
     background-color: rgb(145, 128, 128);
     color: white;
+    box-shadow: inset 6px 6px 13px black;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
 section.imagem > p{
     display: inline-block;
     padding: 5px;
     background-color: rgba(65, 65, 65, 0.438);
+    text-shadow: 2px 2px 0px black;
 }
 
 section#img01{
